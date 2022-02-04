@@ -1,11 +1,12 @@
 public class HourPayWork extends WorkerSalary {
-    HourPayWork[] hourpays;
+  //  HourPayWork[] hourpays;
     int ideWoker;
     String name;
     int everMontEar;
-    //    hourpays=new HourPayWork[10];
+    //  hourpays=new HourPayWork[10];
 
     public HourPayWork(int ideWoker, String name, int everMontEar) {
+
         this.ideWoker = ideWoker;
         this.name = name;
         this.everMontEar = everMontEar;
