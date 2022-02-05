@@ -1,9 +1,8 @@
 public class HourPayWork extends WorkerSalary {
-  //  HourPayWork[] hourpays;
+    HourPayWork[] bigArr;
     int ideWoker;
     String name;
     int everMontEar;
-    //  hourpays=new HourPayWork[10];
 
     public HourPayWork(int ideWoker, String name, int everMontEar) {
 
@@ -17,8 +16,24 @@ public class HourPayWork extends WorkerSalary {
 
     }
 
-    public void fillUpArr(){}
+    public void fillUpArr() {
+    }
 
+    public void print() {
+        for (int i = 0; i < bigArr.length; i++) {
+            if (bigArr[i] != null) {
+                System.out.println(bigArr[i].ideWoker);
+            }
+
+
+        }
+    }
 }
+
+
+
+
+
+
 
 

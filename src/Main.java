@@ -4,14 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         MakeArr arrWork = new MakeArr();
+      //  HourPayWork[] arrWork = new HourPayWork[10];
         HourPayWork[] bigArr;
         bigArr = arrWork.makeArr();
+        arrWork.print(bigArr);
 
-        for (int i = 0; i < 10; i++) {
-            if (bigArr[i] != null) {
-                System.out.println(bigArr[i].name + "   " + bigArr[i].ideWoker);
-            }
-        }
-    }
+
+
+  }
 }
 
