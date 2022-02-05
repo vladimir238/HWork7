@@ -1,5 +1,4 @@
 public class MakeArr {
-    WorkerSalary[] workerSalaries;
     public HourPayWork[] makeArr(){
         HourPayWork[] arrWork = new HourPayWork[10];
         int n = 10;
